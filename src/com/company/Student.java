@@ -32,7 +32,7 @@ public class Student {
         if (this.yearsOld > 0) {
             this.yearsOld = yearsOld;
         } else {
-            System.out.println("Возрат студента отрицателен");
+            System.out.println("Ошибка, возраст студента отрицателен");
         }
     }
 
